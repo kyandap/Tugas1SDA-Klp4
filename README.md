@@ -9,7 +9,7 @@ Tugas terdiri dari 10 soal yang mencakup berbagai operasi pada linked list seper
 * Nama 2
 * Kyandaru Annisa Putri | 250810701100059 | Nomor 5-6
 * Nama 4
-* Nama 5
+* As-Sajadah Khaira | 25081070110005 | Nomor 9-10
 
 ## Materi
 
