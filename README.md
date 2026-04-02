@@ -1,14 +1,14 @@
-# Tugas 1 SDA - Kelompok 4
+# Tugas 1 - Struktur Data dan Algoritma (SINF1004)
 Repository ini berisi tugas mata kuliah **Struktur Data dan Algoritma (SDA)** tentang implementasi **Linked List** menggunakan bahasa C.
 
 Tugas terdiri dari 10 soal yang mencakup berbagai operasi pada linked list seperti penggabungan list, penghapusan node, partisi, dan lainnya.
 
 ## Anggota Kelompok
 
-* Nama 1
-* Nama 2
+* Mellani Sofie | 250810701100069 | Nomor 1-2 
+* Najahal Khaira | 250810701100040 | Nomor 3-4
 * Kyandaru Annisa Putri | 250810701100059 | Nomor 5-6
-* Nama 4
+* Zahra Febi Maharani | 25081070110006 | Nomor 7-8
 * As-Sajadah Khaira | 25081070110005 | Nomor 9-10
 
 ## Materi
@@ -35,8 +35,9 @@ Tugas terdiri dari 10 soal yang mencakup berbagai operasi pada linked list seper
 10. Menghapus node berdasarkan array
 
 ## Cara Menjalankan Program
-
-1. Compile:
+1. Pastikan sudah menginstall compiler C (GCC / MinGW / CodeBlocks).
+2. Simpan file dengan ekstensi .c, misalnya main.c.
+3. Compile dengan perintah:
 
    ```
    gcc main.c -o program
@@ -46,6 +47,11 @@ Tugas terdiri dari 10 soal yang mencakup berbagai operasi pada linked list seper
    ```
    ./program
    ```
+
+## Cara Menggunakan Program
+* Program akan menjalankan fungsi-fungsi sesuai kebutuhan soal.
+* Data input bisa dimasukkan langsung di dalam kode (hardcode) atau menggunakan input user (jika ditambahkan).
+* Output akan ditampilkan dalam bentuk linked list.
 
 ## Output
 
