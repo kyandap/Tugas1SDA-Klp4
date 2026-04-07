@@ -11,12 +11,6 @@ Tugas terdiri dari 10 soal yang mencakup berbagai operasi pada linked list seper
 * Zahra Febi Maharani | 25081070110006 | Nomor 7-8
 * As-Sajadah Khaira | 25081070110005 | Nomor 9-10
 
-## Materi
-
-* Linked List
-* Manipulasi Node
-* Algoritma pada Linked List
-
 ## Bahasa Pemrograman
 
 * C
