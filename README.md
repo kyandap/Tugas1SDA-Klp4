@@ -55,8 +55,10 @@ Tugas terdiri dari 10 soal yang mencakup berbagai operasi pada linked list seper
 
 ## Output
 
-Program menampilkan hasil sesuai masing-masing soal, seperti:
+Program menampilkan hasil sesuai masing-masing soal, antara lain:
 
-* Linked list hasil modifikasi
-* Pengelompokan ganjil/genap
-* Status palindrom (true/false)
+* Hasil linked list setelah dilakukan berbagai modifikasi (seperti penggabungan, penghapusan, atau pengurutan ulang)
+* Pengelompokan node ganjil dan genap
+* Status apakah linked list merupakan palindrom (true/false)
+* Hasil partisi list berdasarkan nilai tertentu
+* Hasil pembalikan (reverse) sebagian atau seluruh linked list
