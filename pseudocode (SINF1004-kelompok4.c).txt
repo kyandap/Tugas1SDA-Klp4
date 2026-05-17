@@ -1,0 +1,95 @@
+DEKLARASI
+    MAX = 25
+    integer V, H, N
+    array papan[MAX][MAX]
+
+FUNGSI simulasi(baris, kolom)
+
+    IF kolom < 1 ATAU kolom > H
+        RETURN 0
+    AKHIRIF
+
+    WHILE baris <= V DAN papan[baris][kolom] == 0
+        baris = baris + 1
+    AKHIRWHILE
+
+    IF baris > V
+        RETURN 0
+    AKHIRIF
+
+    tabrakan = 1
+
+    kiri = kolom
+    WHILE kiri > 1 DAN papan[baris][kiri - 1] == 1
+        kiri = kiri - 1
+    AKHIRWHILE
+
+    kanan = kolom
+    WHILE kanan < H DAN papan[baris][kanan + 1] == 1
+        kanan = kanan + 1
+    AKHIRWHILE
+
+    tabrakan =
+        tabrakan +
+        simulasi(baris + 1, kiri - 1)
+
+    tabrakan =
+        tabrakan +
+        simulasi(baris + 1, kanan + 1)
+
+    RETURN tabrakan
+
+AKHIR FUNGSI
+
+
+PROGRAM UTAMA
+
+    buka file "data.txt"
+
+    IF file tidak ditemukan
+        tampilkan "File data.txt tidak ditemukan"
+        selesai program
+    AKHIRIF
+
+    baca V, H, N
+
+    FOR i = 1 sampai V
+        FOR j = 1 sampai H
+            papan[i][j] = 0
+        AKHIRFOR
+    AKHIRFOR
+
+    FOR k = 0 sampai N-1
+
+        baca v1, h1, v2, h2
+
+        IF v1 == v2
+            FOR j = h1 sampai h2
+                papan[v1][j] = 1
+            AKHIRFOR
+
+        ELSE IF h1 == h2
+            FOR i = v1 sampai v2
+                papan[i][h1] = 1
+            AKHIRFOR
+        AKHIRIF
+
+    AKHIRFOR
+
+    tutup file
+
+    maksimum = 0
+
+    FOR kolom = 1 sampai H
+
+        hasil = simulasi(1, kolom)
+
+        IF hasil > maksimum
+            maksimum = hasil
+        AKHIRIF
+
+    AKHIRFOR
+
+    tampilkan maksimum
+
+SELESAI
