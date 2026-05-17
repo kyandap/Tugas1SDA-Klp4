@@ -1,0 +1,14 @@
+DEKLARASI STRUCT Batu
+    integer v1, h1
+    integer v2, h2
+AKHIR STRUCT
+
+DEKLARASI VARIABEL GLOBAL
+    integer V
+    integer H
+    integer N
+
+    array batu[500] bertipe Batu
+
+DEKLARASI FUNGSI
+    bacaData()
