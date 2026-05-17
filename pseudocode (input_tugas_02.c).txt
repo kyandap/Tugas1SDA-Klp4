@@ -1,0 +1,31 @@
+DEKLARASI
+    integer V
+    integer H
+    integer N
+
+    array batu[500]
+
+FUNGSI bacaData()
+
+    buka file "data.txt"
+
+    IF file tidak ditemukan
+        tampilkan "File tidak ditemukan"
+        RETURN
+    AKHIRIF
+
+    baca V, H, N
+
+    FOR i = 0 sampai N-1
+
+        baca:
+            batu[i].v1
+            batu[i].h1
+            batu[i].v2
+            batu[i].h2
+
+    AKHIRFOR
+
+    tutup file
+
+AKHIR FUNGSI
